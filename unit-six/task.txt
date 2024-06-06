@@ -1,0 +1,13 @@
+Theory Questions:
+1. Define session and cookie with proper examples.
+2. Why session_start() should be at top of the page?
+3. Explain how cookie works with proper diagram.
+4. Explain how cookie works with proper diagram.
+
+Practical Questions: 
+1. Make a web page that uses a SESSION to keep track of how many times a user has viewed the page. 
+The first time a particular user looks at the page, it should print something like "Number of views: 1." 
+The second time the user looks at the page, it should print "Number of views: 2," and so on.
+
+2. Create an architecture of login and logout explaining its route and write a program
+   to develop a full fledged login and logout app using session and cookie. 

@@ -1,0 +1,39 @@
+[
+    {
+        "uname": "Camden",
+        "lname": "Christian",
+        "email": "jijyzamo@mailinator.com",
+        "gender": "male",
+        "hobbies": [
+            "on"
+        ],
+        "city": "pkr",
+        "txtarea": "Et sed doloribus eni"
+    },
+    {
+        "uname": "Cassidy",
+        "lname": "Nash",
+        "email": "pogyk@mailinator.com",
+        "gender": "female",
+        "hobbies": [
+            "football",
+            "on",
+            "on"
+        ],
+        "city": "dhg",
+        "txtarea": "Praesentium deserunt"
+    },
+    {
+        "uname": "Christian",
+        "lname": "England",
+        "email": "zadedoc@mailinator.com",
+        "gender": "others",
+        "hobbies": [
+            "football",
+            "on",
+            "on"
+        ],
+        "city": "pkr",
+        "txtarea": "Fugiat ut enim irure"
+    }
+]

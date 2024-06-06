@@ -1,0 +1,2 @@
+ - Static Properties concepts are similar to static method. 
+ - Hence, TRY ON YOUR OWN. 

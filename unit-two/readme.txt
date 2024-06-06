@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/64206549/warning-only-the-first-byte-will-be-assigned-to-the-string-offset

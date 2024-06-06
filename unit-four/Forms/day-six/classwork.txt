@@ -1,0 +1,15 @@
+1. Write a PHP program which contains only a input and accepts only your first name. 
+    It should check for the correct name format and should not accept characters or spaces.
+
+2. Write a PHP program which validates Nepali mobile phone number.
+        
+3. Write a PHP program to create a form that contains two textboxes which accepts numbers
+   and a submit button. When a submit button is clicked, sum of two numbers will be displayed.
+    
+ 4. Write a PHP program which validates checkboxes. It should contain 5 boxes; when a submit button 
+    is clicked in a specific or multiple checkboxes it should display their names.
+    (Note: empty fields are not allowed) 
+           
+5. Write a PHP program which validates selectboxes. It should contain 5 options; when a submit button 
+   is clicked in a specific or multiple selectboxes it should display their names. 
+   (Note: empty fields are not allowed)

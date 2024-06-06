@@ -1,0 +1,23 @@
+Definition's:
+-> A session is a way to store information (in variables) to be used 
+   accross multiple pages. Unlike a cookie, the information is not 
+   stored on the users computer.
+
+-> It sets user data in server for a longer period of time.
+
+-> Session is a server side data.
+
+-> Session is a super global variable and is an associative array type.
+
+-> In session any data can be assigned. Session size is 128MB by 
+default.
+
+-> Session and cookie are both domain dependent i.e. a data set in 
+   one domain cannot be accessed by another domain.
+
+-> In order to use or store information in session we need to start 
+   session first.
+
+-> By default, session variables last until the user closes the 
+   browser.
+

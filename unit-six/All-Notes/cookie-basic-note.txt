@@ -1,0 +1,31 @@
+Definition's:
+->  A cookie is a small piece of code set by web server that resides 
+    on the client machine. Once it's been set, the client 
+    automatically returns the cookie to the web server with each 
+    request that it makes. This allows the server to place
+    value it wishes to 'remember' in the cookie, and have access 
+    to them when creating response.
+
+->  Cookie is a client side data.
+
+->  Cookie is a super global variable and is an associative array 
+    type.
+
+->  Cookie is usually stored for longer period of time because cookie 
+    it is in control of user.
+
+->  Session and cookie are both domain dependent i.e. a data set in 
+    one domain cannot be accessed by another domain.
+
+->  You should not store user's critical information in cookie 
+    like passwords, a/c number etc.
+
+->  In a domain only 50 cookie can be stored and per cookie size 
+    should be limited to 4KB.
+
+->  Cookie can store only one data type i.e. string
+
+-> Types of cookies:
+    a) Session cookies (destroys the user data when the browser is 
+       closed)
+    b) Persistent cookies (keeps the user data until the expiry date)

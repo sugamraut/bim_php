@@ -1,0 +1,42 @@
+----CONFIGURING SESSIONS----
+
+Sessions work great with no additional tweaking. Turn them on with the
+session_start( ) function or the session.auto_start configuration
+directive, and the $_SESSION array is there for your enjoyment. However, if
+you're more particular about how you want sessions to function, there are a
+few helpful settings that can be changed.
+Session data sticks around as long as the session is accessed at least once
+every 24 minutes. This is fine for most applications. Sessions aren't meant to
+be a permanent data store for user information that's what the database is for.
+Sessions are for keeping track of recent user activity to make their browsing
+experience smoother.
+Some situations may need a shorter session length, however. If you're
+developing a financial application, you may want to allow only 5 or 10 minutes
+of idle time to reduce the chance that an unattended computer can be used by
+an unauthorized person. If your application doesn't work with very critical data
+and you have easily distracted users, you may want to set the session length
+to longer than 24 minutes.
+The session.gc_maxlifetime configuration directive controls how much idle
+time is allowed between requests to keep a session active. It's default value is
+1,440 there are 1,440 seconds in 24 minutes. You can change
+session.gc_maxlifetime in your server configuration or by calling the
+ini_set( ) function from your program. If you use ini_set( ), you must call
+it before session_start( ). 
+
+Example: Changing allowable session idle time
+<?php
+
+ini_set('session.gc_maxlifetime',600'); // 600 seconds = = ten minutes
+session_start( );
+
+?>
+
+Expired sessions don't actually get wiped out instantly after 24 minutes
+elapses. Here's how it really works: at the beginning of any request that uses
+sessions (because the page calls session_start( ) or session.auto_start is
+on), there is a 1% chance that the PHP interpreter scans through all of the
+sessions on the server and deletes any that are expired. "A 1% chance"
+sounds awfully unpredictable for a computer program. It is. But that
+randomness makes things more efficient. On a busy site, searching for expired
+sessions to destroy at the beginning of every request would consume too much
+server power.
