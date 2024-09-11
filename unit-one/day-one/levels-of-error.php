@@ -25,7 +25,7 @@ echo "hello";
 
 $a = 10;
 // $b = "10asdaas"; //returns warning error 
-// $b = "asasa10"; // returns Fatal error or error
+ $b = "asasa10"; // returns Fatal error or error
 
 
 $c = $a + $b;

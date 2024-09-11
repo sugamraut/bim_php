@@ -23,6 +23,6 @@ $img_url = "c:/image/a.jpg";
 
 echo IMAGE_URL; */
 
-/* define('IMAGE_URL', $img_url); //It is allowed
+ define('IMAGE_URL', $img_url); //It is allowed
 
-echo IMAGE_URL; */
+echo IMAGE_URL; 

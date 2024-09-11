@@ -42,7 +42,7 @@ endif; */
 
 $act = "detail";
 
-/* if ($act == "add") {
+ if ($act == "add") {
         echo "The operation performed is add.";
 } else {
         if ($act == "update") {
@@ -56,7 +56,7 @@ $act = "detail";
                         }
                 }
         }
-} */
+} 
 
 
 /* if ($act == "add") {
